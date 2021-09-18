@@ -36,14 +36,23 @@ class: center, middle, inverse, title-slide
 
 ---
 
+
 # Bilangan Riil
 # Pertidaksamaan
 # Nilai Mutlak
 # Sistem Koordinat Kartesius
 # Fungsi dan Grafiknya
+
 ---
-.pull-left[
+
+class: inverse, center, middle
+
 # Bilangan Riil
+
+---
+
+.pull-left[
+
 ## Jenis Bilangan
 Jenis-jenis bilangan:
 
@@ -55,16 +64,15 @@ Jenis-jenis bilangan:
 - Bilangan irasional (*irational numbers*)
   - Bukan rasio 2 bilangan bulat
   - `\(\sqrt{2}\)`, `\(\sqrt{5}\)`, `\(\sqrt{3}\)`, `\(\pi\)`, `\(e\)`, ...
+- Bilangan riil
+  - Bilangan rasional dan bilangan irasional
+  - Dasar Kalkulus
 
 ]
 
 --
 .pull-right[
-
-- Bilangan riil
-  - Bilangan rasional dan bilangan irasional
-  - Dasar Kalkulus
-
+&lt;br&gt;&lt;br&gt;
 Himpunan bilangan asli `\(\mathbb{N}=\{ 1, 2, 3, 4, 5, ...\}\)`&lt;br&gt;
 Himpunan bilangan bulat `\(\mathbb{Z}=\{...,-2, -1, 0, 1, 2,...\}\)`
 
@@ -79,7 +87,6 @@ Himpunan bilangan irasional `\(\bar{\mathbb{Q}}\)`
 Himpunan bilangan riil `\(\mathbb{R = Q \cup \bar{Q}}\)`
 
 Perhatikan `\(\mathbb{N \subset Z \subset Q \subset R}\)` 
-
 
 ]
 
@@ -131,9 +138,9 @@ x&amp;=\frac{1}{9}
 
 ## Latihan Mandiri
 
-- Tulis `\(0.3\bar{9}\)` ke dalam bilangan rasional
-- Tulis `\(3.4\bar{5}\)` ke dalam bilangan rasional
-- Tulis `\(0.\overline{345}\)` ke dalam bilangan rasional
+- Tulis `\(0.3\bar{9}\)` ke dalam bilangan rasional&lt;br&gt;&lt;br&gt;
+- Tulis `\(3.4\bar{5}\)` ke dalam bilangan rasional&lt;br&gt;&lt;br&gt;
+- Tulis `\(0.\overline{345}\)` ke dalam bilangan rasional&lt;br&gt;&lt;br&gt;
 - Tulis `\(0.1\bar{9}\)` dan `\(0.2\bar{0}\)` ke dalam bilangan rasional
 
 ---
@@ -171,8 +178,17 @@ Sifat urutan bilangan riil
 
 
 ---
+
+class: inverse, center, middle
+
 # Pertidaksamaan
+
+---
+
 ### Notasi Inverval
+
+.pull-left[
+
 **Pertidaksamaan** (*inequality*) `\(a&lt;x&lt;b\)`
 - merupakan gabungan pertidaksamaan `\(a&lt;x\)` dan `\(x&lt;b\)`
 - mendeskripsikan interval terbuka yang berisi semua bilangan riil antara `\(a\)` dan `\(b\)`
@@ -185,7 +201,11 @@ Grafik interval terbuka `\(\left( -1, 6 \right)\)`
 
 ![](gb_01.jpg)
 
----
+]
+
+--
+
+.pull-right[
 
 **Pertidaksamaan** (*inequality*) `\(a\leq{x}\leq{b}\)`
 - merupakan gabungan pertidaksamaan `\(a\leq{x}\)` dan `\(x\leq{b}\)`
@@ -198,6 +218,9 @@ Interval tertutup `\(\left[-1, 5\right]=\left\{x \in \mathbb{R}:-1\leq{x}\leq{5}
 Grafik interval tertutup `\(\left[ -1, 5 \right]\)`
 
 ![](gb_02.jpg)
+
+]
+
 ---
 
 ![](gb_03.jpg)
@@ -249,11 +272,16 @@ Jadi himpunan penyelesaian dari pertidaksamaan tersebut adalah `\(\left( -1,6 \r
 
 
 ---
+
+class: inverse, center, middle
+
 # Nilai Mutlak
+
+---
 
 .pull-left[
 
-Nilai mutlak (*absolute value*) dari bilangan riil *x* didefinisikan sebagai:
+**Nilai mutlak** (*absolute value*) dari bilangan riil *x* didefinisikan sebagai:
 
 
 `$$|x| = \left\{
@@ -265,13 +293,7 @@ Nilai mutlak (*absolute value*) dari bilangan riil *x* didefinisikan sebagai:
 
 #### Contoh 5
 `\(|3.14|=3.14\)` karena `\(3.14 \geq{0}\)`&lt;br&gt;
-`\(|-3.14|=-(-3.14)\)` karena `\(3.14 &lt; 0\)`
-
-]
-
---
-
-.pull-right[
+`\(|-3.14|=-(-3.14)=3.14\)` karena `\(3.14 &lt; 0\)`
 
 **Sifat nilai mutlak**.
 1. `\(|xy|=|x||y|\)`
@@ -283,15 +305,148 @@ Jika `\(a&gt;0\)`, maka
 - `\(|x|&lt;a\)` jika dan hanya jika `\(-a&lt;x&lt;a\)`
 - `\(|x|&gt;a\)` jika dan hanya jika `\(x&lt;-a\)` atau `\(x&gt;a\)`
 
+]
+
+--
+
+.pull-right[
+
+#### Contoh 6
+Buktikan `\(|-a|=|a|\)`
+
+Perhatikan `\(|-a|=|\left(-1\right).a|=|-1||a|=1|a|=|a|\)`
+
+#### Contoh 7
+Buktikan `\(|a-b|\le|a|+|b|\)`
+
+Perhatikan
+`$$\begin{align*}
+|a-b|&amp;=|a+\left(-b\right)| \\
+&amp;\le|a|+|b| \text{        (Ketaksamaan segitiga)}\\
+&amp;=|a|+|b|
+\end{align*}$$`
+
+Jadi `\(|a-b|\le|a|+|b|\)`
+
 
 ]
 
+---
 
+### Akar Kuadrat
+
+.pull-left[
+
+Hubungan nilai mutlak dengan akar kuadrat
+`$$|x|^2=x^2 \text{  dan  } |x|=\sqrt{x^2}$$`
+Sifat nilai mutlak dalam pertidaksamaan kuadrat
+`$$|x|&lt;|y| \Leftrightarrow{x^2 &lt; y^2}$$`
+Catatan:
+1. **Akar kuadrat** dari bilangan riil positif adalah bilangna positif.&lt;br&gt;Sebagai contoh, `\(\sqrt{4}=2\)`, `\(\sqrt{9}=3\)`
+1. Secara umum, `\(\sqrt{x^2} \ne x\)` &lt;br&gt; Sebagai contoh, `\(\sqrt{(-2)^2}=\sqrt{4}=2 \ne -2\)`&lt;br&gt;Perhatikan `\(\sqrt{(-2)^2}=|-2|=2\)`
+
+]
+
+--
+
+.pull-right[
+
+#### Contoh 8
+Diberikan ketaksamaan `\(|2x − 5| &lt; 7\)`.&lt;br&gt;Tentukanlah himpunan penyelesaiannya!
+
+Perhatikan:&lt;br&gt;
+Berdasarkan sifat pertidaksamaan nilai mutlak, maka&lt;br&gt;
+`\(|2x - 5| &lt; 7\)` &lt;br&gt;
+`\(\Leftrightarrow{-7&lt;(2x-5)&lt;7} \hspace{1cm}\)`          (karena `\(7&gt;0\)`) &lt;br&gt;
+`\(\Leftrightarrow{-2&lt;2x&lt;12} \hspace{1cm}\)`          (ketiga ruas ditambah `\(5\)`) &lt;br&gt;
+`\(\Leftrightarrow{-1&lt;x&lt;6} \hspace{1cm}\)`          (ketiga ruas dibagi `\(2\)`)
+
+Jadi himpunan penyelesaian dari pertidaksamaan tersebut adalah `\(\left(-1,6\right)=\left\{x \in \mathbb{R}:-1&lt;x&lt;6\right\}\)`.
+
+]
 
 ---
+
+.pull-left[
+
+#### Contoh 9
+Diberikan ketaksamaan `\(|x − 1| &lt; 2 |x − 3|\)`.
+Tentukanlah himpunan penyelesaiannya!
+
+Perhatikan:&lt;br&gt;
+`\(|x − 1| &lt; 2 |x − 3|\)`&lt;br&gt;
+`\(\Leftrightarrow{|x − 1| &lt; |2(x − 3)|} \hspace{0.5cm}\)` (sifat nilai mutlak) &lt;br&gt;
+`\(\Leftrightarrow{(x − 1)^2 &lt; 4(x − 3)^2} \hspace{0.5cm}\)` (sifat pertidaksamaan nilai mutlak) &lt;br&gt;
+`\(\Leftrightarrow{3x^2-22x+35&gt;0}\)` &lt;br&gt;
+`\(\Leftrightarrow{(3x-7)(x-5)&gt;0} \hspace{0.5cm}\)` (pemfaktoran)
+
+Jadi himpunan penyelesaian dari pertidaksamaan di atas adalah 
+
+`\(\left( -\infty, 2\frac{1}{3} \right) \cup \left( 5, \infty \right) = \left\{ x \in \mathbb{R}:x&lt;2\frac{1}{3} \right\} \cup \left\{ x \in \mathbb{R}:x&gt;5 \right\}\)`
+
+]
+
+--
+
+.pull-right[
+
+### Latihan Mandiri
+1. Diberikan pertidaksamaan `\(\Bigg| \dfrac{4x+3}{x+6}  \Bigg|&gt;1\)`.&lt;br&gt;Tentukanlah himpunan penyelesaiannya!&lt;br&gt;&lt;br&gt;&lt;br&gt;
+1. Buktikanlah `\(\Bigg| \dfrac{x-2}{x^2+9}  \Bigg| &lt; \dfrac{|x|+2}{9}\)`!
+
+]
+
+---
+
+class: inverse, center, middle
+
 # Sistem Koordinat Kartesius
+
 ---
+
+### Kuadran
+
+.pull-left[
+
+Bidang koordinat Kartesius dibagi menjadi 4 kuadran , yaitu: Kuadran I, Kuadran II, Kuadran III dan Kuadran IV.
+
+- **Kuadran I** adalah daerah pada koordinat kartesius yang dibatasi oleh sumbu-X positif dan sumbu-Y positif. &lt;br&gt;&lt;br&gt;
+- **Kuadran II** adalah daerah pada koordinat kartesius yang dibatasi oleh sumbu-X negatif dan sumbu-Y positif. &lt;br&gt;&lt;br&gt;
+- **Kuadran III** adalah daerah pada koordinat kartesius yang dibatasi oleh sumbu-X negatif dan sumbu-Y negatif. &lt;br&gt;&lt;br&gt;
+- **Kuadran IV** adalah daerah pada koordinat kartesius yang dibatasi oleh sumbu-X positif dan sumbu-Y negatif. 
+]
+
+.pull-right[
+
+![](gb_05.jpg)
+
+]
+
+---
+
+.pull-left[
+
+Titik di bidang koordinat Kartesius mempunyai koordinat `\((a, b)\)`. Koordinat tersebut merupakan **pasangan terurut** (*ordered pair*), sehingga jika urutannya diubah, maka didapat titik yang berbeda.
+
+Komponen `\(a\)` adalah koordinat `\(x\)` dan `\(b\)` adalah koordinat `\(y\)`.
+
+![](gb_06.jpg)
+
+]
+
+.pull-right[
+
+
+
+]
+
+---
+### Persamaan Garis
+
+class: inverse, center, middle
+
 # Fungsi dan Grafiknya
+
 ---
 `$$\begin{equation} \label{eu_eqn}
 e^{\pi i} + 1 = 0
@@ -664,8 +819,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div id="htmlwidget-075f8c1f73f888642099" style="width:100%;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-075f8c1f73f888642099">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-280142767ca457ea124f" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-280142767ca457ea124f">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -677,8 +832,8 @@ DT::datatable(
 )
 ```
 
-<div id="htmlwidget-4d7a1a26e9935e1c5fc7" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4d7a1a26e9935e1c5fc7">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-916af5179565e46e570e" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-916af5179565e46e570e">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
